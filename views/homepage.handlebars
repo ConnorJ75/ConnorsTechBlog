@@ -1,0 +1,14 @@
+<main class="container mt-5">
+  <div class="card text-center">
+    {{#each posts}}
+      <div class="card-body">
+        <h2 class="card-title">
+          <a href="/post/{{id}}" class="text-dark">{{title}}</a>
+        </h2>
+        <div class="card-body text-dark">
+          <p>Created by: {{user.username}} Date: {{format_date createdAt}}</p>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</main>
