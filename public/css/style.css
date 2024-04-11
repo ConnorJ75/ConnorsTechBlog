@@ -1,3 +1,7 @@
+body {
+  background-color: aquamarine !important;
+}
+
 header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
@@ -12,13 +16,15 @@ header, .project:not(:last-child) {
   font-size: 100%;
 }
 
-.no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
+.container {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px; 
+  padding: 20px;
+  margin-top: 100px;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+.navbar {
+  background-color: #15202b !important; 
 }
+
+
